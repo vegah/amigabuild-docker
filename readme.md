@@ -10,7 +10,7 @@ Since it downloads and makes the binary when creating the image, this takes some
 
 ## How to use the image directly
 ```
-$ docker run vegah/amigabuild:latest 
+$ docker -it run vegah/amigabuild:latest bash
 ```
 
 The dockerfile itself is licensed under the GNU Public License 3.  All software that is created is of coursed licensed with their own licenses.  
