@@ -1,6 +1,8 @@
-# Docker image for building gcc for amiga.  
+# Docker image for building with gcc for amiga.  
 Based on the amiga-gcc-toolchain found here : https://github.com/bebbo/amiga-gcc.  
 Creates a docker image that can compile to an amiga executable.  
+Also adds the includes found here: https://github.com/deplinenoise/amiga-sdk  
+
 
 ## How to build
 ```
